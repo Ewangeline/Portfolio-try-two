@@ -1,24 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfolio</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+        crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/style.css"/>
+
 </head>
+
 <body>
     <a href="#content">Skip to content</a>
     <header>
         <a href="/">
-            <img src="/img/logo.svg" alt="My portfolio" width="200">
+            <img src="img/logo.svg" alt="My portfolio" width="200">
         </a>
 
         <nav>
             <ul>
-                <li><a href="#home">home</a></li>
-                <li><a href="#skills">skills</a></li>
-                <li><a href="#portfolio">portfolio</a></li>
-                <li><a href="#about">about me</a></li>
-                <li><a href="#contact">contact</a></li>
+                <li>
+                    <a href="#home">home</a>
+                </li>
+                <li>
+                    <a href="#skills">skills</a>
+                </li>
+                <li>
+                    <a href="#portfolio">portfolio</a>
+                </li>
+                <li>
+                    <a href="#about">about me</a>
+                </li>
+                <li>
+                    <a href="#contact">contact</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -28,19 +45,35 @@
             <h1>Hi, I am Anete Webbie.</h1>
             <p>I’m a full-stack web developer.</p>
 
-            <p>Let’s work together to make your produt stand out. I create beautiful and functional websites. I work with my clients step by step from the idea until the fully functioning web application.</p>
+            <p>Let’s work together to make your produt stand out. I create beautiful and functional websites. I work with my
+                clients step by step from the idea until the fully functioning web application.</p>
 
-            <h2>Discover</h2>
-            <p>Tell me about your project and we brainstorm together the features to creat a plan for your product to launch.</p>
 
-            <h2>Design</h2>
-            <p>We design the wireframe and agree together how to create the best experience for your users to present your brand.</p>
+            <div class="row">
+                <div class="col-sm-6 col-md">
+                    <h2>Discover</h2>
+                    <p>Tell me about your project and we brainstorm together the features to creat a plan for your product to
+                        launch.</p>
+                </div>
 
-            <h2>Deploy</h2>
-            <p>We prototype and develop your product. We work together intensily to incorporate your feedback.</p>
+                <div class="col-sm-6 col-md">
+                    <h2>Design</h2>
+                    <p>We design the wireframe and agree together how to create the best experience for your users to present
+                        your brand.</p>
+                </div>
 
-            <h2>Be Ready</h2>
-            <p>We deploy your product and now your website is ready to get the traction. Get out there and grow your audience.</p>
+                <div class="col-sm-6 col-md">
+                    <h2>Deploy</h2>
+                    <p>We prototype and develop your product. We work together intensily to incorporate your feedback.</p>
+                </div>
+
+                <div class="col-sm-6 col-md">
+                    <h2>Be Ready</h2>
+                    <p>We deploy your product and now your website is ready to get the traction. Get out there and grow your
+                        audience.</p>
+                </div>
+            </div>
+
         </section>
 
         <section id="skills">
@@ -61,16 +94,96 @@
         <section id="portfolio">
             <h2>My Portfolio</h2>
 
-            <h3>Project name</h3>
-            <p>Project description</p>
-            <h4>Tech stack:</h4>
+            <div class="container">
+                <div class="row">
+                    <div class="card mb-4" style="width: 18rem;">
+                        <img class="card-img-top" src="http://satyr.io/300x200" alt="Card image cap">
+
+                        <div class="card-body">
+                            <article>
+                                <h3 class "card-title">My Portfolio</h3>
+                                <p class "card-text">Single page of all my projects created during winter batch 2018</p>
+                                <h4>Tech stack:</h4>
+                                <ul class="list-unstyled">
+                                    <li class="badge badge-secondary">html</li>
+                                    <li class="badge badge-secondary">css</li>
+                                    <li class="badge badge-secondary">sass</li>
+                                    <li class="badge badge-secondary">gulp</li>
+                                    <li class="badge badge-secondary">bootstrap</li>
+                                </ul>
+                            </article>
+                        </div>
+                    </div>
+
+                    <div class="card mb-4" style="width: 18rem;">
+                        <img class="card-img-top" src="http://satyr.io/300x200" alt="Card image cap">
+                        <div class="card-body">
+                            <article>
+                                <h3 class "card-title">Project name</h3>
+                                <p class "card-text">Project description</p>
+                                <h4>Tech stack:</h4>
+                            </article>
+                        </div>
+                    </div>
+
+                    <div class="card mb-4" style="width: 18rem;">
+                        <img class="card-img-top" src="http://satyr.io/300x200" alt="Card image cap">
+                        <div class="card-body">
+                            <article>
+                                <h3 class "card-title">Project name</h3>
+                                <p class "card-text">Project description</p>
+                                <h4>Tech stack:</h4>
+                            </article>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="card mb-4" style="width: 18rem;">
+                        <img class="card-img-top" src="http://satyr.io/300x200" alt="Card image cap">
+                        <div class="card-body">
+                            <article>
+                                <h3 class "card-title">Project name</h3>
+                                <p class "card-text">Project description</p>
+                                <h4>Tech stack:</h4>
+                            </article>
+                        </div>
+                    </div>
+
+                    <div class="card mb-4" style="width: 18rem;">
+                        <img class="card-img-top" src="http://satyr.io/300x200" alt="Card image cap">
+                        <div class="card-body">
+                            <article>
+                                <h3 class "card-title">Project name</h3>
+                                <p class "card-text">Project description</p>
+                                <h4>Tech stack:</h4>
+                            </article>
+                        </div>
+                    </div>
+
+                    <div class="card mb-4" style="width: 18rem;">
+                        <img class="card-img-top" src="http://satyr.io/300x200" alt="Card image cap">
+                        <div class="card-body">
+                            <article>
+                                <h3 class "card-title">Project name</h3>
+                                <p class "card-text">Project description</p>
+                                <h4>Tech stack:</h4>
+                            </article>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
         </section>
 
         <section id="about">
             <h2>About me</h2>
             <img src="http://satyr.io/300/red" alt="It’s me, Aneta Webbie">
-            <p>My name is Aneta Webbie. I am a full-stack web developer and enjoy learning new trends. I am developing user interfaces in JavaScript and React and backend of my projects in PHP and Laravel. </p>
-            <p>I am open to learning new technologies and enjoy working with people who are as passionate about all web-related as me.</p>
+            <p>My name is Aneta Webbie. I am a full-stack web developer and enjoy learning new trends. I am developing user
+                interfaces in JavaScript and React and backend of my projects in PHP and Laravel. </p>
+            <p>I am open to learning new technologies and enjoy working with people who are as passionate about all web-related
+                as me.</p>
             <p>I have worked for clients all across the world but currently I am based in Prague, Czech Republic. </p>
             <p>I like cats, gaming, and snowboarding. If I do not develop, you can also meet me trekking in the mountains.</p>
             <p>Get in touch and let's do something great together.</p>
@@ -106,4 +219,5 @@
         <p>Copyright @Aneta Webbie 2018</p>
     </footer>
 </body>
+
 </html>
