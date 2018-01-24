@@ -113,12 +113,14 @@ nav a:focus {
 // Main Image
 
 .main-img {
-    background: url("/img/light.jpeg");
+    background: url("../img/light.jpeg");
     width: 100%;
     font-size: 300%;
     margin-left: 0;
     margin-right: 0;
     padding: 8vw 4vw;
+    margin-bottom: 1em;
+    text-shadow: 2px 2px white;
 }
 
 // Hidden accessibility item
@@ -142,3 +144,32 @@ nav a:focus {
     height: auto;
     clip: auto;
 }
+
+// First Dark Section
+
+.dark {
+    background-color: #717171;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+// Progress bars
+
+.progress {
+    margin: 0.5em;
+}
+
+.progress {background: #D4D4D4; border: 0px solid rgba(245, 245, 245, 1); border-radius: 4px; height: 28px;}
+.progress-bar-custom {background: #AFAFAF;}
+
+.skills {
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+h2 {
+    text-align: center;
+}
+
