@@ -149,8 +149,7 @@ nav a:focus {
 
 .dark {
     background-color: #717171;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding: 2em;
     margin-bottom: 2em;
     margin-top: 2em;
 }
@@ -175,10 +174,11 @@ h2 {
 
 // My portfolio
 
-// .my-portfolio {
-//     background-color: #AFAFAF;
+.my-portfolio {
+    background-color: #AFAFAF !important;
+    padding-top: 1em;
 
-// }
+}
 
 
 // About me
@@ -186,3 +186,63 @@ h2 {
 .me {
     border-radius: 50%;
 }
+.about {
+    padding-top: 1em;
+}
+
+// Buttons, twitter etc..
+
+#twitterIcon{
+    color: rgb(0, 172, 237) !important;
+
+  }
+  #githubIcon{
+    color: rgb(102,43,129) !important;
+
+  }
+  #linkedinIcon{
+    color: rgb(0,127,178) !important;
+  }
+  #youtubeIcon{
+    color: rgb(255,0,0) !important;
+  }
+  #facebookIcon{
+    color: rgb(59,89,163) !important;
+  }
+
+  .btn-default{
+    background-color:#D4D4D4;
+    border-color:#717171;
+    font-size:1em;
+    color:#717171;
+    margin-left:auto;
+    margin-right:auto;
+
+  }
+
+//   .paddingBTN{
+//     width:200px;
+//     margin-bottom:25px;
+//   }
+
+  .align-middle {
+      text-align: center;
+  }
+
+  .btnList {
+    display: flex;
+      text-align: center;
+      justify-content: center;
+  }
+
+  .contact-me {
+    background-color: #AFAFAF !important;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+
+  }
+
+  footer {
+    text-align: center;
+  }
