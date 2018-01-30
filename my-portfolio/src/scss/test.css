@@ -1,0 +1,19 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.bar {
+    width: 0%;
+    height: 2rem;
+    background-color: royalblue;
+    margin-bottom: 15px;
+
+}
+
+.progress {
+    padding: 20px;
+    width: 100%;
+    background-color: #D4D4D4;
+
+}

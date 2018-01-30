@@ -246,3 +246,31 @@ h2 {
   footer {
     text-align: center;
   }
+
+//   *{
+//     box-sizing: border-box;
+// }
+
+//Placeholder progress bars
+
+
+
+.bar {
+    width: 0%;
+    height: 2rem;
+    background-color: #717171;
+    margin-bottom: 15px;
+
+}
+
+.progress_bars {
+    padding: 20px;
+    width: 100%;
+    background-color: #E4E4E4;
+
+}
+
+// bootstrap bars
+// .progress-bar {
+//     transition: none !important;
+// }
