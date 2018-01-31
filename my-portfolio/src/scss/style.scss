@@ -156,20 +156,37 @@ nav a:focus {
 
 // Progress bars
 
-.progress {
-    margin: 0.5em;
-}
+// .progress {
+//     margin: 0.5em;
+// }
 
-.progress {background: #D4D4D4; border: 0px solid rgba(245, 245, 245, 1); border-radius: 4px; height: 28px;}
-.progress-bar-custom {background: #AFAFAF;}
+// .progress {background: #D4D4D4; border: 0px solid rgba(245, 245, 245, 1); border-radius: 4px; height: 28px;}
+// .progress-bar-custom {background: #AFAFAF;}
 
 .skills {
     padding-left: 5em;
     padding-right: 5em;
 }
 
-h2 {
-    text-align: center;
+// h2 {
+//     text-align: center;
+// }
+
+
+.progress-bar {
+    font-size: 1.2rem;
+    transition: none !important;
+
+    strong,
+    span  {
+        line-height: 2rem; // equal to progress-bar height set via inline style
+        background-color: #717171 !important;
+
+    }
+
+    strong {
+        width: 6em;
+    }
 }
 
 // My portfolio
@@ -255,22 +272,23 @@ h2 {
 
 
 
-.bar {
-    width: 0%;
-    height: 2rem;
-    background-color: #717171;
-    margin-bottom: 15px;
+// .bar {
+//     width: 0%;
+//     height: 2rem;
+//     background-color: #717171;
+//     margin-bottom: 15px;
 
-}
+// }
 
-.progress_bars {
-    padding: 20px;
-    width: 100%;
-    background-color: #E4E4E4;
+// .progress_bars {
+//     padding: 20px;
+//     width: 100%;
+//     background-color: #E4E4E4;
 
-}
+// }
 
 // bootstrap bars
 // .progress-bar {
 //     transition: none !important;
 // }
+

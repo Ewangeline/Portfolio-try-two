@@ -7,10 +7,16 @@
     <title>My portfolio</title>
 
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <!-- <script src="js/jquery-3.3.1.min.js"></script> -->
+
     <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.appear.js"></script>
 </head>
 
 <body>
+
+
+
     <a href="#content" class="accessible-hidden">Skip to content</a>
     <header>
 
@@ -94,20 +100,75 @@
 
 
         <section id="skills" class="skills">
-            <h2>My skills</h2>
 
 
-        <div id="progress_bars" class="progress_bars">
-            <div class="bar" id="bar1">HTML 80% Complete</div>
-            <div class="bar" id="bar2">CSS, SASS 80% Complete</div>
-            <div class="bar" id="bar3">JavaScript 70% Complete</div>
-            <div class="bar" id="bar4">React 60% Complete</div>
-            <div class="bar" id="bar5">jQuery 70% Complete</div>
-            <div class="bar" id="bar6">PHP 60% Complete</div>
-            <div class="bar" id="bar7">Laravel 60% Complete</div>
-            <div class="bar" id="bar8">UX 50% Complete</div>
-
+        <h1>My skills</h1>
+        <div class="progress mb-1" style="height: 2rem">
+            <div class="progress-bar" data-progress="80%" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                <div class="d-flex justify-content-between">
+                    <strong class="d-block px-2 bg-dark">HTML</strong>
+                    <span class="px-2">80 %</span>
+                </div>
+            </div>
         </div>
+        <div class="progress mb-1" style="height: 2rem">
+            <div class="progress-bar" data-progress="80%" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                <div class="d-flex justify-content-between">
+                    <strong class="d-block px-2 bg-dark">CSS, Sass</strong>
+                    <span class="px-2">80 %</span>
+                </div>
+            </div>
+        </div>
+        <div class="progress mb-1" style="height: 2rem">
+            <div class="progress-bar" data-progress="70%" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                <div class="d-flex justify-content-between">
+                    <strong class="d-block px-2 bg-dark">JavaScript</strong>
+                    <span class="px-2">70 %</span>
+                </div>
+            </div>
+        </div>
+        <div class="progress mb-1" style="height: 2rem">
+            <div class="progress-bar" data-progress="60%" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                <div class="d-flex justify-content-between">
+                    <strong class="d-block px-2 bg-dark">React</strong>
+                    <span class="px-2">60 %</span>
+                </div>
+            </div>
+        </div>
+        <div class="progress mb-1" style="height: 2rem">
+            <div class="progress-bar" data-progress="70%" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                <div class="d-flex justify-content-between">
+                    <strong class="d-block px-2 bg-dark">jQuery</strong>
+                    <span class="px-2">70 %</span>
+                </div>
+            </div>
+        </div>
+        <div class="progress mb-1" style="height: 2rem">
+            <div class="progress-bar" data-progress="60%" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                <div class="d-flex justify-content-between">
+                    <strong class="d-block px-2 bg-dark">PHP</strong>
+                    <span class="px-2">60 %</span>
+                </div>
+            </div>
+        </div>
+        <div class="progress mb-1" style="height: 2rem">
+            <div class="progress-bar" data-progress="60%" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                <div class="d-flex justify-content-between">
+                    <strong class="d-block px-2 bg-dark">Laravel</strong>
+                    <span class="px-2">60 %</span>
+                </div>
+            </div>
+        </div>
+        <div class="progress mb-1" style="height: 2rem">
+            <div class="progress-bar" data-progress="50%" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                <div class="d-flex justify-content-between">
+                    <strong class="d-block px-2 bg-dark">UX</strong>
+                    <span class="px-2">50 %</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 
 
@@ -164,7 +225,7 @@
 
 
 
-        </section>
+
 
         <section id="portfolio" class="portfolio">
             <h2>My Portfolio</h2>
@@ -372,9 +433,19 @@
         <p>Nice to meet you!</p>
         <p>Copyright @Aneta Webbie 2018</p>
     </footer>
+    <!-- <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.appear.js"></script> -->
+    <script>
+    $('.progress-bar').appear();
 
-    <script src="js/jquery.appear.js"></script>
-    <script src="js/main.js"></script>
+
+$('.progress-bar').on('appear', function(){
+    var progressValue = $(this).data('progress');
+    $(this).delay(500).animate({width: progressValue},1000)
+
+
+});
+    </script>
 </body>
 
 </html>

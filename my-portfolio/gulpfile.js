@@ -53,7 +53,7 @@ gulp.task('js:compile', ['js:clean'], function() {
 			.pipe(gulp.dest('dist/js'));
 });
 
-gulp.task('build', ['css:compile', 'html:copy', 'static:copy','js:compile']);
+gulp.task('build', ['static:clean', 'css:compile', 'html:copy', 'static:copy','js:compile']);
 
 gulp.task('develop', ['build'], function() {
 	gulp.watch('src/scss/*', ['css:compile']); // watch for changes in SCSS
