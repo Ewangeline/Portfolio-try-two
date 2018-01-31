@@ -1,0 +1,38 @@
+/* .square {
+    width: 250px;
+    height: 250px;
+    background-color: rebeccapurple;
+    margin: 1em;
+
+} */
+
+/* #progress {
+    position: static;
+    width: 0%;
+    height: 2rem;
+    background-color: royalblue;
+
+} */
+
+*{
+    box-sizing: border-box;
+}
+
+button {
+    margin-bottom: 2000px;
+}
+
+.bar {
+    width: 0%;
+    height: 2rem;
+    background-color: royalblue;
+    margin-bottom: 15px;
+
+}
+
+.progress {
+    padding: 20px;
+    width: 100%;
+    background-color: #D4D4D4;
+
+}
