@@ -59,15 +59,13 @@
     <main id="content">
         <section id="home">
             <article class="main-img">
-                <h1>Hi, I am Anete Webbie.</h1>
+                <h1>Hi, I am <a href="#">Anete Webbie</a>.</h1>
                 <p>I’m a full-stack web developer.</p>
             </article>
 
-            <p>Let’s work together to make your produt stand out. I create beautiful and functional websites. I work with my
-                clients step by step from the idea until the fully functioning web application.</p>
 
 
-            <div class="dark">
+            <!-- <div class="dark">
                 <div class="row">
                     <div class="col-sm-6 col-md">
                         <h2>Discover</h2>
@@ -94,7 +92,50 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </div> -->
+
+            <div class="bg-light p-5 mp-claim">
+                    <p class="w-75 m-auto text-center">Let’s work together to make <strong>your product stand out</strong>. I create beautiful and functional websites. I work with my clients step by step <strong>from the idea until the fully functioning web application</strong>.</p>
+                </div>
+
+               <div class="dark-bg">
+                    <h2 class="sr-only">Promo</h2>
+                    <div class="bg-dark">
+                        <div class="row px-5 pb-5 text-white text-center mp-promo">
+                            <div class="col-sm-6 col-lg">
+                                <article class="px-3">
+                                    <div></div>
+                                    <h3 class="h2 mt-3 mb-5">Discover</h3>
+                                    <p>Tell me about your project and we brainstorm together the features to create a plan for your product to launch.</p>
+                                </article>
+                            </div>
+
+                            <div class="col-sm-6 col-lg">
+                                <article class="px-3">
+                                    <div></div>
+                                    <h3 class="h2 mt-3 mb-5">Design</h3>
+                                    <p>We design the wireframe and agree together how to create the best experience for your users to present your brand.</p>
+                                </article>
+                            </div>
+
+                            <div class="col-sm-6 col-lg">
+                                <article class="px-3">
+                                    <div></div>
+                                    <h3 class="h2 mt-3 mb-5">Deploy</h3>
+                                    <p>We prototype and develop your product. We work together intensily to incorporate your feedback.</p>
+                                </article>
+                            </div>
+
+                            <div class="col-sm-6 col-lg">
+                                <article class="px-3">
+                                    <div></div>
+                                    <h3 class="h2 mt-3 mb-5">Be Ready</h3>
+                                    <p>We deploy your product and now your website is ready to get the traction. Get out there and grow your audience.</p>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+               </div>
 
         </section>
 
@@ -435,17 +476,7 @@
     </footer>
     <!-- <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/jquery.appear.js"></script> -->
-    <script>
-    $('.progress-bar').appear();
-
-
-$('.progress-bar').on('appear', function(){
-    var progressValue = $(this).data('progress');
-    $(this).delay(500).animate({width: progressValue},1000)
-
-
-});
-    </script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

@@ -66,8 +66,15 @@ html, body
 a {
     list-style: none;
     text-decoration: none;
+    transition: .5s;
+    color: black !important;
 
 }
+
+a:hover {
+    color: #717171 !important;
+}
+
 
 nav ul {
     list-style: none;
@@ -147,12 +154,12 @@ nav a:focus {
 
 // First Dark Section
 
-.dark {
-    background-color: #717171;
-    padding: 2em;
-    margin-bottom: 2em;
-    margin-top: 2em;
+.dark-bg {
+    background-color: #717171 !important;
 }
+
+
+
 
 // Progress bars
 
